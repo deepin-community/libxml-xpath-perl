@@ -1,0 +1,2 @@
+# stumbles over our dummy module. and wants lib/. and just loads, which happens later anyway.
+t/00load.t

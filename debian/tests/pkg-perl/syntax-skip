@@ -1,0 +1,14 @@
+# Bareword "XML::XPath::Step::test_nt_node" not allowed while "strict subs" in use at /usr/share/perl5/XML/XPath/Parser.pm line 423.
+# Compilation failed in require at /usr/share/perl5/XML/XPath/Step.pm line 5.
+# BEGIN failed--compilation aborted at /usr/share/perl5/XML/XPath/Step.pm line 5.
+# Compilation failed in require at /usr/share/perl5/XML/XPath/Parser.pm line 20.
+# BEGIN failed--compilation aborted at /usr/share/perl5/XML/XPath/Parser.pm line 20.
+# not ok 5 - /usr/bin/perl -wc /usr/share/perl5/XML/XPath/Parser.pm exited successfully
+
+XML/XPath/Parser.pm
+
+# Bareword "node_parent" not allowed while "strict subs" in use at /usr/share/perl5/XML/XPath/PerlSAX.pm line 55.
+# /usr/share/perl5/XML/XPath/PerlSAX.pm had compilation errors.
+# not ok 16 - /usr/bin/perl -wc /usr/share/perl5/XML/XPath/PerlSAX.pm exited successfully
+
+XML/XPath/PerlSAX.pm

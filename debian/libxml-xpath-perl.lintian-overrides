@@ -1,0 +1,3 @@
+# /usr/bin/xpath is more a goodie than primary purpose
+libxml-xpath-perl: library-package-name-for-application usr/bin/xpath
+libxml-xpath-perl: application-in-library-section perl usr/bin/xpath

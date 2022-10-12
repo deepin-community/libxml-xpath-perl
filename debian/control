@@ -1,0 +1,31 @@
+Source: libxml-xpath-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>,
+           Nick Morrott <knowledgejunkie@gmail.com>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: perl,
+                     libpath-tiny-perl (>= 0.076),
+                     libxml-parser-perl,
+                     libscalar-list-utils-perl
+Standards-Version: 4.2.1
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libxml-xpath-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libxml-xpath-perl.git
+Homepage: https://metacpan.org/release/XML-XPath
+
+Package: libxml-xpath-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libxml-parser-perl,
+         libscalar-list-utils-perl
+Description: Perl module for processing XPath
+ The XML::XPath module implements the W3C's XPath specification.  It aims to
+ be completely correct to the letter of the spec, and yet still allow
+ extensions through the use of functions and variables, such as are
+ provided by XSLT and XPointer.
+ .
+ Besides the Perl modules it also provides a command line tool named
+ "xpath" to query XPath statements in XML documents.
